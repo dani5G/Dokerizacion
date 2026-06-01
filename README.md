@@ -1,7 +1,7 @@
-# Guía rápida Docker
+# Guía
 
-## dockerizacion por el nombre de tu imagen
-## poner en inventario cualquier
+-- dockerizacion por el nombre de tu imagen
+-- poner en inventario cualquier
 
 ## Build
 ```bash
