@@ -43,9 +43,13 @@ docker run -d --name inventario -p 8080:80 -v inventario_data:/app/data danielaa
 ```
 
 # Eliminar contenedor e imagen local
+```bash
 docker stop inventario
 docker rm inventario
 docker rmi danielaag5/dockerizacion:v1
+```
 
 # Descargar y correr directo desde Docker Hub
+```bash
 docker run -d --name inventario -p 8080:80 -v inventario_data:/app/data danielaag5/dockerizacion:v1
+```
