@@ -1,0 +1,9 @@
+# Ignoramos el compilado local (Docker compila desde cero)
+target/
+
+# Archivos de Mac que no sirven
+.DS_Store
+__MACOSX/
+
+# El README no va dentro de la imagen
+*.md
